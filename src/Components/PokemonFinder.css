@@ -1,0 +1,47 @@
+.font-family-pokemon {
+    font-family: "Pokemon Solid", sans-serif !important;
+}
+
+.pfContainer {
+    max-width: 550px;
+    min-width: 250px;
+    margin: 5px ;
+    height: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 30px;
+    background-color: #f0f0c9;
+    color: black;
+}
+
+.pfForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.pfLabel {}
+
+.pfInput {
+    width: 50%;
+    max-width: 250px;
+    height: 25px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+.pfPokemonInfoContainer{
+    width: 250px;
+    height: inherit;
+    padding-bottom: 30px;
+}
+
+.pfPokemonInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
